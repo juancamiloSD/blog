@@ -1,7 +1,7 @@
 # Instalación/Configuración Prueba
 
 ## SERVIDOR LOCAL
-Se debe tener isntalado en la maquina un servidor local como XAMP, WAMP, WAMPSERVER, etc. el cual nos servira para levantar un entorno de servidor local y poder ejecutar archivos PHP
+Se debe tener instalado en la maquina un servidor local como XAMP, WAMP, WAMPSERVER, etc. el cual nos servira para levantar un entorno de servidor local y poder ejecutar archivos PHP
 
 ## BASE DE DATOS
 Cuando se tenga instalado el servidor local, se procedera a prender/encender el servidor y asi poder acceder a http://localhost/phpmyadmin. Crear una base de datos e importar el archivo SQL
