@@ -9,7 +9,7 @@ Cuando se tenga instalado el servidor local, se procedera a prender/encender el 
 ## GIT
 Estando dentro del directorio WWW, HTDOCS etc se debera acceder a git mediante la terminal y escribir la siguiente sentencia ** git clone https://github.com/juancamiloSD/blog.git **, con este comando se procedera a descargar todos los archivos necesarios para la compilación del proyecto
 
-## CONFIURACIÓN
+## CONFIGURACIÓN
 Una vez terminado el clonado, buscar en el directorio del proyecto el archivo wp-admin.php y configurar los accesos necesarios para conectar el proyecto con la base de datos
 define( 'DB_NAME', 'endeavor' );
 define( 'DB_USER', 'root' );
