@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>WordPress &#8250; ReadMe</title>
+	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
+</head>
+<body>
+<h1 id="logo">
+	<a href="https://wordpress.org/"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" /></a>
+</h1>
+<h1 style="text-align: center">Instalación/Configuración Prueba</h1>
+
+<h2>SERVIDOR LOCAL</h2>
+<p>Se debe tener isntalado en la maquina un servidor local como XAMP, WAMP, WAMPSERVER, etc. el cual nos servira para levantar un entorno de servidor local y poder ejecutar archivos PHP</p>
+
+<h2>BASE DE DATOS</h2>
+<p>Cuando se tenga instalado el servidor local, se procedera a prender/encender el servidor y asi poder acceder a http://localhost/phpmyadmin. Crear una base de datos e importar el archivo SQL</p>
+
+<h2>GIT</h2>
+<P>Estando dentro del directorio WWW, HTDOCS etc se debera acceder a git mediante la terminal y escribir la siguiente sentencia ** git clone https://github.com/juancamiloSD/blog.git **, con este comando se procedera a descargar todos los archivos necesarios para la compilación del proyecto </P>
+
+<h2>CONFIURACIÓN</h2>
+<p>Una vez terminado el clonado, buscar en el directorio del proyecto el archivo wp-admin.php y configurar los accesos necesarios para conectar el proyecto con la base de datos</p>
+define( 'DB_NAME', 'endeavor' );
+define( 'DB_USER', 'root' );
+define( 'DB_PASSWORD', '' );
+
+<h2>OPCIONES</h2>
+<p>buscar en la base de datos la tabla endeavor2021_options y en el registro SITEURL y HOME colocar el directorio HTTP donde se encuentra la carpeta del proyecto</p>
+EJEMPLO
+http://localhost/endeavor
+
+<h2>HTACCESS</h2>
+<p>Para refrescar las urls del sitio_web/blog se debera acceder al wp-admin y mediante ** Ajustes->Enlaces permanentes->Guardar ** se generara o actualizara el archivo htaccess</p>
+
+<h2>ARCHIVO SQL</h2>
+<p>El archivo que corresponde a la base de datos esta en el directorio raiz del proyecto wordpress</p>
+</body>
+</html>
